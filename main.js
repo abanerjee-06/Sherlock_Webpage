@@ -1,0 +1,1 @@
+alert('Dr. John Watson welcomes you to the webpage. Please do take care to not move anything.')

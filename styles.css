@@ -1,0 +1,123 @@
+body {
+      background: rgb(22, 22, 20);
+      color: brown;
+      font-family: "Ubuntu Medium";
+      margin: 0;
+      padding: 0;
+}
+header{
+      background: black;
+      background-image: url("images/shelock_wallpaper.jpg");
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      padding: 20px;
+      text-align: center;
+}
+h1{
+      margin-left: -38px;
+}
+header .logo a{
+      background-color: blue;
+      background-image: url("images/sherlock_logo.jpg");
+      background-size: 100px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      text-indent: -999999px;
+}
+a{
+      text-decoration: none;
+}
+a:hover{
+      text-decoration: underline;
+}
+ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+}
+li {
+      display: inline-block;
+      margin-left: 20px;
+      border-radius: 3px;
+      padding: 2px;
+      background: orange;
+}
+li:first-child{
+      margin-left: 0;
+}
+.features{
+      background: blanchedalmond;
+      color: rgb(204, 118, 38);
+      padding: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+.features figure{
+      margin-left: 20px;     
+      text-align: center;
+      text-transform: capitalize;
+}
+.features figure img{
+      border: 2px solid rgb(26, 26, 26);
+      border-radius: 10px;
+      box-shadow: black 0 0 20px;
+}
+.design{
+      background: blueviolet;
+      color: rgb(240, 166, 8);
+      padding: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+.design div{
+      width:600px;
+}
+.design div p{
+      color: yellow;
+      text-align: left;
+}
+.design figure{
+      margin-inline-start: 10px;     
+      text-align: center;
+      text-transform: capitalize;
+}
+.design figure img{
+      border: 2px solid rgb(26, 26, 26);
+      border-radius: 10px;
+      box-shadow: black 0 0 20px;
+}
+footer{
+      background: rgb(151, 228, 9);
+      padding: 10px 20px;
+      text-align: center;
+}
+footer a{
+      color: red;
+      text-decoration: none;
+}
+footer a:hover{
+      text-decoration: underline;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 600px){
+      header{
+            height: 220px;
+            background-position: 0 10px;
+      }
+      header .logo a{
+            background-size: 70px;
+            width: 70px;
+            height: 70px;
+      }
+      .features figure{
+            margin-bottom: 20px;
+      }
+}
